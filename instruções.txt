@@ -1,0 +1,6 @@
+compilar mpicc  arquivo.c -o arquivo
+executar mpi run -np 4 --hostfile hostfile ./arquivo
+
+
+arquivo hostfile localhost slots=10 
+retirar warning export HWLOC HIDE ERRORS=2
