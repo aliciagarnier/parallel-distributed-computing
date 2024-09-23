@@ -1,4 +1,4 @@
-compilar mpicc  arquivo.c -o arquivo
+ compilar mpicc  arquivo.c -o arquivo
 executar mpi run -np 4 --hostfile hostfile ./arquivo
 
 
